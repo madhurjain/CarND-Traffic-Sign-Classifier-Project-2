@@ -19,7 +19,7 @@ In this project, we use convolutional neural networks to classify traffic signs.
 
 #### 1. Basic summary of the data set
 
-I used the pandas library to calculate summary statistics of the traffic signs data set:
+I used the NumPy library to calculate summary statistics of the traffic signs data set:
 
 * The size of training set is 34799
 * The size of the validation set is 4410
