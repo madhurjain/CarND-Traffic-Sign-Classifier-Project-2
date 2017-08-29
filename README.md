@@ -15,6 +15,23 @@ In this project, we use convolutional neural networks to classify traffic signs.
 [image5]: ./images_from_web/roundabout.png "Roundabout"
 
 ---
+
+What was the first architecture that was tried and why was it chosen?
+> The first architecture tried was _LeNet-5_. It was chosen because it was the architecture explained through the course material.
+
+What were some problems with the initial architecture?
+> The initial architecture for LeNet-5 had a channel depth of 1 and output of 10. Moreover, there were no dropout layers to avoid overfitting.
+
+How was the architecture adjusted and why was it adjusted?
+> The input channel depth was increased to 3, output was set to 43 because we have 43 different labels to identify. Adding a dropout layer was tried.
+
+Which parameters were tuned? How were they adjusted and why?
+> The learning rate was increased to _0.002_ for faster convergence.
+
+What are some of the important design choices and why were they chosen?
+> Instead of modifying the architecture, I choose to combine and reshuffle the data. Better approach would have been to create more data using image augmentation techniques and then add dropout layers to avoid overfitting.
+
+---
 ### Data Set Summary & Exploration
 
 #### 1. Basic summary of the data set
